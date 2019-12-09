@@ -85,6 +85,11 @@ def gross_per_studio(collection)
     studio_name = collection[counter][:studio]
     movie_gross = collection[counter][:worldwide_gross]
     
+    if !hash[studio_name]
+      hash[studio_name] = movie_gross
+    else
+      hash[studio_name]+=movie_gross
+    end
     
     counter +=1
   end 
