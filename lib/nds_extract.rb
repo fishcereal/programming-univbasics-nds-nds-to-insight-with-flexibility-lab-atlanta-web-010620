@@ -82,7 +82,7 @@ def gross_per_studio(collection)
   hash = {} 
   while counter < collection.length do 
     
-    pp collection[0]
+    
     
     counter +=1
   end 
