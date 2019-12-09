@@ -82,7 +82,7 @@ def gross_per_studio(collection)
   hash = {} 
   while counter < collection.length do 
     
-    studio_name = collection[counter][:studio_name]
+    studio_name = collection[counter][:studio]
     movie_gross = collection[counter][:]
     
     
